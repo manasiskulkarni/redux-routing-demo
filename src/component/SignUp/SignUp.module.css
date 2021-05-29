@@ -1,0 +1,110 @@
+.Sign {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 93% 100%;
+  background-image: url("/src/assets/images/skylark-opt.png");
+}
+
+/* .Header {
+  width: 30%;
+  height: 8%;
+  padding: 25px;
+  left: 4cm;
+  top: 0.7cm;
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  position: absolute;
+  box-shadow: 3px 4px 2px #3c3b40;
+  background-color: #3c3b40;
+  border: 1px solid #999a9a;
+}
+
+.Item {
+  color: white;
+  display: inline-flex;
+  margin: auto;
+  float: right;
+  font-weight: bold;
+  transform: translate(-10%, -50%);   
+} */
+
+.Body {
+  width: 30%;
+  height: 70%;
+  z-index: 500;
+  background-color: #3c3b40;
+  border: 2px solid #999a9a;
+  position: absolute;
+  left: 4cm;
+  top: 4cm;
+  align-items: center;
+  margin: auto;
+}
+
+.Margin {
+  margin-left: 1.3cm;
+  margin-top: 0.1cm;
+  width: 100%;
+  padding: 13px;
+}
+
+.Button {
+  padding: 22px;
+  margin: auto;
+}
+
+.Body input {
+  border: none;
+  width: 80%;
+  padding: 20px;
+  border-bottom: 2px solid #999a9a;
+  background-color: #3c3b40;
+  color: white;
+}
+
+.Body input:focus {
+  color: white;
+  background-color: #3c3b40;
+  border-bottom: 2px solid #999a9a;
+}
+
+.Body select {
+  width: 80%;
+  padding-top: 10px;
+  padding-left: 16px;
+  color: white;
+  border: none;
+  background-color: #3c3b40;
+  border-bottom: 2px solid #999a9a;
+}
+
+.Body input::placeholder {
+  color: #999a9a;
+  font-weight: bold;
+}
+
+.Body option {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .Header {
+    left: 2cm;
+  }
+  .Body {
+    left: 2cm;
+  }
+}
+
+@media (max-width: 150px) {
+  .Body {
+    margin: 0cm;
+    width: 100%;
+  }
+  .Body input {
+    margin-left: 0cm;
+    width: 20%;
+  }
+}

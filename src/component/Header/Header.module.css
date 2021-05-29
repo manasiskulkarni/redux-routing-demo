@@ -1,0 +1,36 @@
+.Header {
+  width: 30%;
+  height: 8%;
+  padding: 25px;
+  left: 4cm;
+  top: 0.7cm;
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  position: absolute;
+  box-shadow: 3px 4px 2px #3c3b40;
+  background-color: #3c3b40;
+  border: 1px solid #999a9a;
+}
+
+.Item {
+  color: white;
+  display: inline-flex;
+  margin: auto;
+  float: right;
+  transform: translate(-10%, -50%);
+}
+
+@media (max-width: 800px){
+    .Item{
+        display: flex;
+        flex-direction: column;
+        left: 1cm;
+        position: relative;
+    }
+    .Header{
+        position: absolute;
+        left: 2cm;
+        width: 40%;
+    }
+}
